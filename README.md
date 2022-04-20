@@ -1,2 +1,6 @@
 # iOS-
 iOS本地推送
+
+本地消息推送很简单，不需要联网，不需要服务器，由客户端应用直接发出推送消息，一般通过定时器在指定时间进行消息推送。
+
+iOS10之前的本地推送用的是UserNotifications，而iOS10之后推出了UserNotifications框架，这里介绍的是UserNotifications框架的使用。
